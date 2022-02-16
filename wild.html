@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wild</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel = "icon" href =  "images\logo1.png" type = "image/x-icon"> 
+</head>
+<body>
+	<header>
+		<div class="chat"> 
+			<img src="images\chat.png">
+		</div>
+		<div class="main">
+			<ul>
+				<a href="images\logo1.png"><img src="images\logo1.png"></a>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="log_in.html">Log in</a></li>
+				<li><a href="Services.html">Contact Us</a></li>
+			</ul>
+		</div>
+	<div class="title">
+			<h1>Wild</h1>
+		</div>
+	<div class="Intro">
+		<div id="imageContainer">
+  <img class="mySlides" src="images\wild.jpg" >
+  <img class="mySlides" src="images\wild1.jpg" >
+  <img class="mySlides" src="images\wi1.jpg" >
+   <img class="mySlides" src="images\wi2.jpg">
+</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); 
+}
+</script>
+		<p>
+		Despite its small size Sri Lanka boasts of one of the highest rates of biological endemism in the world whether in plants or animals and is included among the top five biodiversity hotspots in the world. Of the ninety-one species of mammals found in Sri Lanka Asian elephants, sloth bear, leopards, sambar and wild buffaloes engages the majority of the attention of wildlife enthusiast. Yet the rarest mammals of Sri Lanka are the red slender Loris, Toque Macaque, and Purple-faced Langur, who according to IUCN clarifications are endangered due to habitat loss.
+		<br><br>
+		Meanwhile the ocean around Sri Lanka is home to large families of cetaceans including the mighty blue whales, sperm whales and lively dolphins. Altogether 26 species of cetaceans rule the waters surrounding the country, making it one of the best locations for whale and dolphin watching.  
+		<br><br>
+		Despite the mighty elephants and rare amphibians found in the country birds are the glory of the Sri Lanka’s wildlife. Boasting nearly 433 bird species of which 233 are resident Sri Lanka holds 20 endemic species while another 80 species have developed distinct Sri Lankan races, compared to their cousins in Indian mainland.
+		<br><br>
+		Although less celebrated, Sri Lanka has one of the richest diversity of amphibians in the world, containing over 106 species of amphibians of over 90 of which are endemic. The country has long claimed to have the highest amphibian species density in the world with a high concentration in the Sinharaja rainforest.
+		</p>
+		<marquee class="Topic">
+	
+		<a href="buddhist.html"><img src="images\buddhist places.jpg"alt=""/></a>
+	
+		<a href="scenic.html"><img src="images\scenic.jpg"alt=""/></a>
+	
+		<a href="heritage.html"><img src="images\heritage.jpg"alt=""/></a>
+	
+		<a href="pristine.html"><img src="images\pristine.jpg"alt=""/></a>
+	
+		<a href="thrills.html"><img src="images\Thrills.jpg"alt=""/></a>
+	
+		<a href="essence.html"><img src="images\essence.jpg"alt=""/></a>
+	
+		<a href="wellness.html"><img src="images\wellness tourism.jpg"alt=""/></a>
+	
+		</marquee>
+	</div>
+</header>
+
+</body>
+</html>

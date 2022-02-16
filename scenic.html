@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Scenic</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	 <link rel = "icon" href =  "images\logo1.png" type = "image/x-icon">
+</head>
+<body>
+	<header>
+		<div class="chat"> 
+			<img src="images\chat.png">
+		</div>
+		<div class="main">
+			<ul>
+				<a href="images\logo1.png"><img src="images\logo1.png"></a>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="log_in.html">Log in</a></li>
+				<li><a href="Services.html">Contact Us</a></li>
+			</ul>
+		</div>
+	<div class="title">
+			<h1>Scenic</h1>
+		</div>
+
+	<div class="Intro">
+		<div id="imageContainer">
+  <img class="mySlides" src="images\scenic.jpg" >
+  <img class="mySlides" src="images\s1.jpg" >
+  <img class="mySlides" src="images\s2.jpg" >
+   <img class="mySlides" src="images\s3.jpg">
+    <img class="mySlides" src="images\s4.jpg" >
+     <img class="mySlides" src="images\banner5.jpg">
+</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); 
+}
+</script>
+		<p>
+		Despite being a relatively small island, Sri Lanka is endowed with a diverse collection of landscapes, climates and natural features. Sri Lanka’s infamous beaches have been enticing visitors for many years. However, the rest of the island harbours many more idyllic vistas.
+		<br><br>
+		The central highlands are carpeted with emerald tea plantations interspersed with occasional waterfalls. Cool climates, misty views, and quaint estate bungalows are a throwback to bygone eras.
+		<br><br>
+		The cultural triangle in the centre of the island holds a certain magic, with ruins from several ancient kingdoms, majestic tanks, hidden rock caves, and ancient sacred temples, revealing the fascinating and almost unbelievable ancient architecture, art, and engineering.
+		<br><br>
+		The North of Sri Lanka is a vibrant concoction of essences, with a unique flavour and culture. Despite still bearing the scars from the civil war, the north truly bears testament to the diversity and variation that comprises the island. Influences include Portuguese, Dutch, Tamil, Muslim, and British characters. Chains of islands are scattered off the shoreline, with their own unique habitats, waiting to be explored.
+		<br><br>
+		The east of the island is home to lush paddy fields, spectacular sunrises, and a quieter more rural pace of life. Colourful places of worship, national parks, ports and harbours, and pristine clear waters offer a mellow experience to any weary traveller.
+		</p>
+		<marquee class="Topic">
+			
+		<a href="wild.html"><img src="images\wild.jpg" alt=""/></a>
+	
+		<a href="buddhist.html"><img src="images\buddhist places.jpg"alt=""/></a>
+	
+		<a href="heritage.html"><img src="images\heritage.jpg"alt=""/></a>
+	
+		<a href="pristine.html"><img src="images\pristine.jpg"alt=""/></a>
+	
+		<a href="thrills.html"><img src="images\Thrills.jpg"alt=""/></a>
+	
+		<a href="essence.html"><img src="images\essence.jpg"alt=""/></a>
+	
+		<a href="wellness.html"><img src="images\wellness tourism.jpg"alt=""/></a>
+	
+		</marquee>
+	</div>
+</header>
+</body>
+</html>

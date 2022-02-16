@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pristine</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	 <link rel = "icon" href =  "images\logo1.png" type = "image/x-icon"> 
+</head>
+<body>
+	<header>
+		<div class="chat"> 
+			<img src="images\chat.png">
+		</div>
+		<div class="main">
+			<ul>
+				<a href="images\logo1.png"><img src="images\logo1.png"></a>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="log_in.html">Log in</a></li>
+				<li><a href="Services.html">Contact Us</a></li>
+			</ul>
+		</div>
+	<div class="title">
+			<h1>Pristine</h1>
+		</div>
+
+	<div class="Intro">
+		<div id="imageContainer">
+  <img class="mySlides" src="images\pristine.jpg" >
+  <img class="mySlides" src="images\banner6.jpg" >
+  <img class="mySlides" src="images\b1.jpg" >
+   <img class="mySlides" src="images\b2.jpg">
+    <img class="mySlides" src="images\b3.jpg" >
+</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); 
+}
+</script>
+		<p>
+		With nearly 1600 km of of palm fringed Coastline baked to perfection surrounding the country Sri Lanka is the ideal destination for beach bums worldwide.  May it be windsurfing, kayaking, yachting, water skiing, scuba diving or jut lazing around for the perfect tan, Sri Lanka offers it all.
+		<br><br>
+		The two monsoon winds providing rain to the two corners of the country at various periods, makes Sri Lanka’s beach holiday a year round prospect. The north east winds make the south western coast sunny and the sea calm from November to March. The South West winds make the East Coast waters quiet with the constant sun shine happily in agreement. 
+		<br><br>
+		The best of the Southern beaches include Tangalla, Beruwala, Mirissa, Bentota and Unawatuna with varying options including chic boutique hotels, glowing coral reefs, gentle sandbars and undiscovered corners of paradise.
+		<br><br>
+		Although Sri Lanka’s southern beaches has been long discovered by the international traveller the east coast is yet to be fully discovered. The most known among the Eastern beaches is the Arugam Bay, the high church of surfing enthusiasts’ in the region. Once a mere rumour, Uppuveli beach is also open to the sun seekers after a three decade long civil war.
+		<br><br>
+		On the Western corner of the country to the north of Colombo is the Negambo lagoon. Its beaches, an old favourite with local and foreign visitors and lagoon famed for lobster harvesting. Despite having a ring of sandy beaches surrounding the country, Galle Face Green, a half a kilometre stretch between Galle Road and Indian Ocean is the playground of the Colombians.
+		</p>
+		<marquee class="Topic">
+			
+		<a href="wild.html"><img src="images\wild.jpg" alt=""/></a>
+	
+		<a href="buddhist.html"><img src="images\buddhist places.jpg"alt=""/></a>
+	
+		<a href="scenic.html"><img src="images\scenic.jpg"alt=""/></a>
+	
+		<a href="heritage.html"><img src="images\heritage.jpg"alt=""/></a>
+	
+		<a href="thrills.html"><img src="images\Thrills.jpg"alt=""/></a>
+	
+		<a href="essence.html"><img src="images\essence.jpg"alt=""/></a>
+	
+		<a href="wellness.html"><img src="images\wellness tourism.jpg"alt=""/></a>
+	
+		</marquee>
+	</div>
+</header>
+</body>
+</html>
